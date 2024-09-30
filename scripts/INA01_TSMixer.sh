@@ -8,7 +8,7 @@ fi
 
 
 seq_len=24
-model_name=PatchTST
+model_name=TSMixer
 pred_len=12
 
 root_path_name=./dataset/

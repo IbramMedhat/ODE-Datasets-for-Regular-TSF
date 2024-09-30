@@ -34,4 +34,4 @@ python -u run_exp.py \
     --head_dropout 0 \
     --des 'Exp' \
     --train_epochs 100 \
-    --itr 1 --batch_size 128 >logs/forecasting/$model_name'_'$model_id_name'_'$seq_len'_'$pred_len.log 
+    --itr 1 --batch_size 128 >logs/forecasting/$model_name'_'$model_id_name'_'$seq_len'_'$pred_len'_'$channel_independence.log 
